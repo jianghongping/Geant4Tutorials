@@ -1,4 +1,13 @@
 # Geant4Tutorials
+
+source /usr/local/bin/geant4.sh 
+
+sudo cmake -DGeant4_DIR=/usr/local/lib/Geant4-10.6.2/ /Path/to/B1
+
+sudo make -j6
+
+./exampleB1
+
 ----------------------------
 
 Geant4 tutorials made by Steven Walton:
